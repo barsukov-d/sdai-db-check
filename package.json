@@ -1,0 +1,16 @@
+{
+  "name": "sdai-db-check",
+  "version": "1.0.0",
+  "description": "Тестовое приложение self-developer-ai: заметки в базе данных, адрес базы приходит только из DATABASE_URL",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  },
+  "packageManager": "pnpm@9.15.4"
+}
